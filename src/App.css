@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.App {
+  /* text-align: center; */
+  background-color: #141414;
+  font-family: "Roboto";
+}
+
+/* Responsive header etc */
+
+@media screen and (max-width: 1024px) {
+  .slider {
+    height: 400px;
+  }
+  .image-slider {
+    height: 400px;
+  }
+  .search {
+    width: 360px;
+    height: 25px;
+  }
+  .movie-logo {
+    width: 44px;
+    height: 33px;
+    margin-right: 0.5rem;
+  }
+  .logo h1 {
+    font-size: 28px;
+  }
+
+  .header h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    height: 250px;
+  }
+  .image-slider {
+    height: 250px;
+  }
+  .movie {
+    width: 175px;
+  }
+
+  .movie-info {
+    height: 150px;
+  }
+  .search {
+    width: 120px;
+    height: 15px;
+    font-size: 1rem;
+    padding: 0.2rem 0.75rem;
+  }
+  .movie-logo {
+    width: 32px;
+    height: 24px;
+    margin-right: 0.75rem;
+  }
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .header h2 {
+    font-size: 15px;
+  }
+}

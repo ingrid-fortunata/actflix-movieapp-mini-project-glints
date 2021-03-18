@@ -1,0 +1,79 @@
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #e5e5e5;
+  padding: 0.4rem 0rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 25px;
+  padding: 20px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.header_black {
+  background-color: #141414;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+.search {
+  width: 450px;
+  height: 25px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  padding: 0.3rem 1.3rem;
+}
+.search:focus {
+  outline: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo-name {
+  font-family: "Bebas Neue";
+  font-size: 2.6rem;
+  color: rgb(229, 9, 20);
+}
+.logo-name:link {
+  text-decoration: none;
+}
+.logo-new {
+  width: 8rem;
+  padding-top: 0.3rem;
+}
+.movie-logo-header {
+  width: 60px;
+  height: 45px;
+  margin-right: 0.75rem;
+}
+
+.sign-in {
+  display: flex;
+}
+
+.sign-in h2 {
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    width: 50px;
+    height: 15px;
+    font-size: 1rem;
+    padding: 0.2rem 0.75rem;
+  }
+}

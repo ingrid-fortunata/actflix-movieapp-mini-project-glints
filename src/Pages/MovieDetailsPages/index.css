@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.details {
+  color: white;
+}
+
+span {
+  display: flex;
+}
+
+span button {
+  margin: 20px;
+  border: none;
+}
+
+span div:hover {
+  cursor: pointer;
+}
+
+.div_OverView {
+  min-height: 100vh;
+}
+
+.div_Characters {
+  min-height: 100vh;
+}
+
+.div_Reviews {
+  min-height: 100vh;
+}

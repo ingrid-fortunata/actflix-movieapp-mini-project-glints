@@ -1,0 +1,72 @@
+.movie-container {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+.movie {
+  margin-right: 0.25rem;
+  transition: transform 450ms;
+  width: 250px;
+  height: 140px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+}
+.movie img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.movie:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  height: 0.4rem;
+  width: 2rem;
+  border: 1px solid #141414;
+  /* border-radius: 50px; */
+  background-color: #141414;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #808080;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar:vertical {
+  display: none;
+}
+
+/* .movie.hover::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  display: none;
+  scrollbar-width: none;
+} */
+
+.movie-over {
+  position: absolute;
+  text-align: left;
+  font-size: 0.75rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.448);
+  color: #fff;
+  padding: 0.5rem;
+  transform: translateY(102%);
+  transition: transform 0.3s ease-in-out;
+  overflow: auto;
+  max-height: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1);
+}
+.movie:hover .movie-over {
+  transform: translateY(0%);
+}

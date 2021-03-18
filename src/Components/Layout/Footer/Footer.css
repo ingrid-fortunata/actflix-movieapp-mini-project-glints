@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 30px 10px 10px 10px;
+}
+
+.footer-container {
+  background-color: #141414;
+  color: #808080;
+}
+
+.links li:hover {
+  cursor: pointer;
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+}
+
+.footer-column-links {
+  padding-top: 15px;
+}
+
+.footer-column-links ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer-column-links li {
+  font-size: 16px;
+}
+
+.movie-logo-all {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.movie-logo-all img {
+  width: 70px;
+  height: 50px;
+  padding: 0px 0px 0px 30px;
+}
+
+.movie-logo-text {
+  font-family: "Bebas Neue";
+  font-size: 2.6rem;
+  color: rgb(229, 9, 20);
+  /* padding: 5px 10px 0px 10px; */
+}
+
+.movie-logo-info {
+  font-family: "Roboto";
+  width: 300px;
+  font-size: 14px;
+  padding: 0px 10px 10px 30px;
+}
+
+li {
+  font-family: "Roboto";
+  font-size: 18px;
+  padding: 5px 0px;
+}
+
+.download {
+  display: flex;
+  padding-bottom: 0px;
+  align-items: flex-start;
+}
+
+hr {
+  width: 93%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.copyright p {
+  padding-bottom: 10px;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .movie-logo-info {
+    width: 100%;
+    padding: 0px;
+  }
+  .movie-logo-all img {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}

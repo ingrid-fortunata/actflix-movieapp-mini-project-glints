@@ -1,0 +1,75 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-logo-new {
+  width: 8rem;
+}
+
+.styleInput {
+  width: "100%";
+  min-height: 45px;
+  border-radius: 5px;
+  background-color: #ece7e7;
+  border: none;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.styleButtonSignup {
+  width: 100%;
+  min-height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fe024e;
+}
+
+.content-item {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.styleLabel {
+  font-weight: "bold";
+  color: black;
+  font-size: large;
+}
+
+.alreadyhave {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.alreadyhave p {
+  margin-right: 0.6rem;
+  color: #8c8989;
+}
+
+.alreadyhave span {
+  color: #fe024e;
+  cursor: pointer;
+}
+
+.signin-modal {
+  cursor: pointer;
+}
+.signin-modal:hover {
+  transform: scale(1.05);
+}
+
+.ReactModal__Content--after-open {
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .ReactModal__Content--after-open {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}

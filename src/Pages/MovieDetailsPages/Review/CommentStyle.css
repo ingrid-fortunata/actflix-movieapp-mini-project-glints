@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.comment-box {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.comment-box h2 {
+  margin-bottom: 20px;
+}
+
+.comment-box button {
+  width: 15vw;
+}
+
+.comment-form-fields input {
+  margin-bottom: 5px;
+  width: 20vw;
+  background-color: beige;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.comment-form-fields textarea {
+  width: 75vw;
+  background-color: beige;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.comment-form-actions button {
+  background-color: #fe024e;
+  border: none;
+}
+
+.comment {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 75vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  background-color: rgba(79, 79, 79, 0.717);
+  border: 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.comment-header {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.comment-body {
+  margin-bottom: 10px;
+}
+
+.comment-footer-delete {
+  color: red;
+  margin-right: 30px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .comment-box button {
+    width: 40vw;
+  }
+  .comment-form-actions button {
+    width: 40vw;
+  }
+}

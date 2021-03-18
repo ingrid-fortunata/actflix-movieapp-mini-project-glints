@@ -1,0 +1,12 @@
+.profile-image {
+  text-align: center;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 150px;
+}
+
+.profile-name {
+  text-align: center;
+}

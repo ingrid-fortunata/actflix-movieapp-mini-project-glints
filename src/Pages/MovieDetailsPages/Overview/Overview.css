@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
+}
+
+fieldset {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  max-width: 80%;
+}
+
+legend {
+  padding: 30px;
+}
+
+p {
+  padding-left: 30px;
+}
+
+label {
+  padding-left: 30px;
+}
